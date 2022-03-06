@@ -108,7 +108,7 @@ def download_server():
 
 		# Descarga
 		url = "https://api.purpurmc.org/v2/purpur/{}/latest/download".format(versiones_FN)
-		subprocess.call('wget -t 100 {} -O "purpur.jar"'.format(versiones_FN), shell=True)
+		subprocess.call('wget -t 100 {} -O "purpur.jar"'.format(url), shell=True)
 
 		# Inicio	
 		eula_sh(ram = int(input("Ingrese valor de ram en GB\n...")),jarFile = "purpur.jar")
