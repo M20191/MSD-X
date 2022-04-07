@@ -11,9 +11,8 @@
                                                  Python Edition
 ```
 
-
 <p align=center>
- <a href="#"><img title="build" src="https://img.shields.io/badge/status-optimizing-yellow?style=for-the-badge&logo=github"><a>
+ <a href="#"><img title="build" src="https://img.shields.io/badge/status-stable-green?style=for-the-badge&logo=github"><a>
 </p>
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-blue?style=flat-square&logo=python"></a>
@@ -22,22 +21,19 @@
 <p align="center">
   <a href="#"><img src="https://img.shields.io/github/license/M20191/MSD-X?style=flat-square&logo=sublime-text"></a>
 </p>
-
-<h1 align=center>
-MSD-X Python/Bash Edition
-</h1> 
-<p align=center>
-Everything you need more improved
-MSD-X
-</p>  
+   
+---
+   
+MSD is a script made in python/bash to download, install, run and close minecraft servers 
+Specially designed to be run on linux server
   
-## Versions
+## 🌿 Jar's Versions
 
 * Purpur  
 * Paper 
 * Spigot 
 
-## You can
+## ☀ Features
 
 * Download Server
 * Start server
@@ -47,38 +43,18 @@ MSD-X
 * Server Status Ping
 * Plugins
 * Deleted Server  
----
-  
-## ¿How to use?
-
-### Download python
-
-```bash
-sudo apt-get python3
+ 
+## 🛠 Downloading repo, installing requirements and cd path:
+```console
+git clone https://github.com/M20191/MSD-X && pip install -r requirements.txt && cd MSD-X/
 ```
-#### or
-```bash
-sudo apt install python3
+   
+## 🖥 How to run:
+```console
+python3 .\mainES.py   
 ```
 
-### Clone the repository
-```bash
-git clone https://github.com/M20191/MSD-X/
-```
-
-### Go to directory
-```bash
-cd MSD-X/
-```
-
-### Download requirements
-```bash
-pip install -r requirements.txt
-```
-
-### Execute main.py
-```bash
-python3 mainES.py
-```
-
-
+### ⚙ Future To-do List:
+- [ ] Plugin Download
+- [ ] Optimize code
+- [x] document better
