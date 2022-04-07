@@ -42,7 +42,9 @@ Specially designed to be run on linux server
 * Change Ram Server
 * Server Status Ping
 * Plugins
-* Deleted Server  
+* Deleted Server
+* Download Apache Server with manual installation guide (Spanish)
+   
  
 ## 🛠 Downloading repo, installing requirements and cd path:
 ```console
