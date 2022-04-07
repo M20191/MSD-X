@@ -51,7 +51,7 @@ git clone https://github.com/M20191/MSD-X && pip install -r requirements.txt && 
    
 ## 🖥 How to run:
 ```console
-python3 .\mainES.py   
+python3 .\mainES.py
 ```
 
 ### ⚙ Future To-do List:
