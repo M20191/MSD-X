@@ -25,13 +25,18 @@
 ---
    
 MSD is a script made in python/bash to download, install, run and close minecraft servers 
-Specially designed to be run on linux server
+Specially designed to be run on **linux server**
   
 ## 🌿 Jar's Versions
 
 * Purpur  
 * Paper 
 * Spigot 
+
+## ⭐ New Features!
+* 1.18.2 Version Jar's
+* Optimize code
+* Another's GNU/LINUX support
 
 ## ☀ Features
 

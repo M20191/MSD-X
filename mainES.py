@@ -61,8 +61,9 @@ def download_server():
 	if options == 1:
 		
 		# Libreria
-		versionesSP = {1: "https://download.getbukkit.org/spigot/spigot-1.18.1.jar",2: "https://download.getbukkit.org/spigot/spigot-1.17.1.jar",3: "https://cdn.getbukkit.org/spigot/spigot-1.16.5.jar",4: "https://cdn.getbukkit.org/spigot/spigot-1.15.2.jar",5: "https://cdn.getbukkit.org/spigot/spigot-1.14.4.jar",6: "https://cdn.getbukkit.org/spigot/spigot-1.12.2.jar",7: "https://cdn.getbukkit.org/spigot/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar",}
-		versiones_PR = int(input("[1]1.18.1\n[2]1.17.1\n[3]1.16.5\n[4]1.15.2\n[5]1.14.4\n[6]1.12.2\n[7]1.8.8\n..."))
+		versionesSP = {1: "https://download.getbukkit.org/spigot/spigot-1.18.1.jar",2: "https://download.getbukkit.org/spigot/spigot-1.17.1.jar",3: "https://cdn.getbukkit.org/spigot/spigot-1.16.5.jar",4: "https://cdn.getbukkit.org/spigot/spigot-1.15.2.jar",5: "https://cdn.getbukkit.org/spigot/spigot-1.14.4.jar",6: "https://cdn.getbukkit.org/spigot/spigot-1.12.2.jar",7: "https://cdn.getbukkit.org/spigot/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar",11:"https://download.getbukkit.org/spigot/spigot-1.18.2.jar"}
+		print("Active development for Minecraft 1.18.2")
+		versiones_PR = int(input("[11]1.18.2\n[1]1.18.1\n[2]1.17.1\n[3]1.16.5\n[4]1.15.2\n[5]1.14.4\n[6]1.12.2\n[7]1.8.8\n..."))
 		versiones_FN = versionesSP[versiones_PR]
 
 		# Descarga
@@ -76,8 +77,9 @@ def download_server():
 	elif options == 2:	
 		
 		# Libreria
-		versionesPA = {1: "1.18.1",2: "1.17.1"}
-		versiones_PR = int(input("[1]1.18.1\n[2]1.17.1\n..."))
+		versionesPA = {1:"1.18.2",2: "1.18.1",3: "1.17.1"}
+		print("Active development for Minecraft 1.18.2")
+		versiones_PR = int(input("[1]1.18.2\n[2]1.18.1\n[3]1.17.1\n..."))
 		versiones_FN = versionesPA[versiones_PR]
 
 		## Build
@@ -102,8 +104,9 @@ def download_server():
 	elif options == 3:
 
 		# Libreria
-		versionesPU = {1:"1.18.1",2:"1.17.1",3:"1.16.5"}
-		versiones_PR = int(input("[1]1.18.1\n[2]1.17.1\n[3]1.16.5\n..."))
+		versionesPU = {1:"1.18.2",2:"1.18.1",3:"1.17.1",4:"1.16.5"}
+		print("Active development for Minecraft 1.18.2")
+		versiones_PR = int(input("[1]1.18.2\n[2]1.18.1\n[3]1.17.1\n[4]1.16.5\n..."))
 		versiones_FN = versionesPU[versiones_PR]
 
 		# Descarga
