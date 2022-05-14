@@ -64,5 +64,6 @@ python3 .\mainES.py
 
 ### ⚙ Future To-do List:
 - [ ] Plugin Download
+- [ ] Consumible API 
 - [ ] Optimize code
 - [x] document better
